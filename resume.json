@@ -1,0 +1,215 @@
+{
+  "selectedTemplate": 9,
+  "headings": {
+    "work": "Work Experience",
+    "skills": "Skills",
+    "awards": "Awards",
+    "education": "Education",
+    "projects": "Projects"
+  },
+  "basics": {
+    "name": "Louis Barrette-Vanasse",
+    "email": "louis.barrette-vanasse@mail.mcgill.ca",
+    "phone": "514-222-1796",
+    "location": {
+      "address": "Montreal"
+    },
+    "website": "linkedin.com/in/louis-barrette-vanasse/| github.com/Louismousine | louisbarrettevanasse.netlify.com"
+  },
+  "education": [
+    {
+      "institution": "McGill University",
+      "location": "| Montreal, Canada",
+      "area": "Software Engineering",
+      "startDate": "Sep 2018",
+      "endDate": "Dec 2021",
+      "gpa": "| GPA: 3.91/4.00",
+      "studyType": "B.SE."
+    },
+    {
+      "institution": "Champlain Regional College",
+      "studyType": "Computer Science & Mathematics",
+      "location": "Saint-Lambert, Canada",
+      "gpa": "36.3 R score",
+      "startDate": "Sep 2016",
+      "endDate": "Jun 2018"
+    }
+  ],
+  "work": [
+    {
+      "company": "National Bank",
+      "location": "Montreal, Canada",
+      "position": "Full Stack Developer Intern",
+      "website": "",
+      "startDate": "May 2020",
+      "endDate": "Aug 2020",
+      "highlights": [
+        "Contributed to building a financial planning website",
+        "Worked with the Atlassian tools suite (Jira, BitBucket, Confluence)",
+        "Actively participated in all Agile ceremonies",
+        "Created components & pages working closely with the design team and configured the API calls in React",
+        "Created REST endpoints, and modified the domain model according to business needs in Spring Boot"
+      ]
+    },
+    {
+      "highlights": [
+        "Built a collaborative music streaming website from the ground up",
+        "Implemented the fully-working backend in Spring Boot alone, and incorporated 2FA and endpoint authentication",
+        "Contributed to making the frontend in Angular"
+      ],
+      "company": "CGI",
+      "position": "Full Stack Developer Intern",
+      "location": "Montreal, Canada",
+      "startDate": "May 2019",
+      "endDate": "Aug 2019"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Java",
+        "JavaScript",
+        "React",
+        "Typescript",
+        "Angular",
+        "HTML",
+        "CSS",
+        "C",
+        "React Native",
+        "Ocaml"
+      ],
+      "name": "Programming"
+    },
+    {
+      "keywords": [
+        "Git",
+        "Atlassian tools (Jira, Confluence, BitBucket)",
+        "Jenkins & Travis CI"
+      ],
+      "name": "Software Development Tools"
+    },
+    {
+      "keywords": [
+        "Written & oral communication",
+        "Teamwork",
+        "Agile methodologies",
+        "Project management"
+      ],
+      "name": "Soft Skills"
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [
+        "Python",
+        "Node.js",
+        "React"
+      ],
+      "name": "Artif.ai",
+      "url": "artif.ai",
+      "description": "An e-commerce website selling AI-generated art"
+    },
+    {
+      "keywords": [
+        "Flutter"
+      ],
+      "name": "Alcoholometer",
+      "description": "A mobile application that promotes responsible drinking by calculating BAC levels, warning users of side effects of each BAC level and estimating the time at which they will be sober again.",
+      "url": "github.com/Louismousine/Alcoholometer"
+    },
+    {
+      "keywords": [
+        "JavaScript"
+      ],
+      "name": "lexia",
+      "description": "Chrome extension to help dyslexic users browse the web.",
+      "url": "github.com/Louismousine/lexia"
+    },
+    {
+      "keywords": [
+        "Node.js",
+        "GCP",
+        "Puppeteer"
+      ],
+      "name": "McGill Course Enroller",
+      "description": "A microservice that automatically enrolls one in a class when a seat is liberated.",
+      "url": "github.com/Louismousine/mcgill-autoregistration"
+    },
+    {
+      "keywords": [
+        "Java",
+        "Spring Boot",
+        "Heroku",
+        "React"
+      ],
+      "name": "Pet adoption website",
+      "url": "github.com/Louismousine/pet-pawlace",
+      "description": "Class project comprising of a backend with authentication features and a frontend - voted best project by my peers"
+    },
+    {
+      "keywords": [
+        "JavaFX",
+        "CSS"
+      ],
+      "name": "Brick Breaker",
+      "description": "Class project requiring us to design a domain model and use the MVC pattern to implement a Brick Breaker clone - our project was voted best project of the class",
+      "url": "github.com/Louismousine/Brick-Breaker-ECSE223"
+    },
+    {
+      "keywords": [
+        "JavaFX"
+      ],
+      "name": "Circuit Circus",
+      "description": "Circuit simulator applet made in JavaFX. Users can build circuits using wires, ground, resistors, voltage sources, 2 and 3 gates switches, transistors, diodes, inductors and capacitors. Voted best project by classmates",
+      "url": "github.com/Louismousine/Circuit-Circus"
+    }
+  ],
+  "awards": [
+    {
+      "date": "Feb 2020",
+      "awarder": "Competitive Programming McGill",
+      "title": "1st place at Tech Games",
+      "summary": "Winner of the hackathon"
+    },
+    {
+      "title": "In-course scholarship",
+      "awarder": "McGill",
+      "date": "2020",
+      "summary": "Granted to the top 250 students in academic standing in engineering"
+    },
+    {
+      "title": "Dean's List",
+      "awarder": "McGill",
+      "date": "2020",
+      "summary": "Honor received by students among the top 10% in academic standard"
+    },
+    {
+      "title": "Narcissa Farand Entrance Scholarship",
+      "date": "Sep 2018",
+      "awarder": "Champlain Regional College",
+      "summary": "Awarded to students coming from CEGEP whose R score is higher than 36.25"
+    },
+    {
+      "title": "Bourse D'Excellence Desjardins",
+      "date": "Jun 2018",
+      "awarder": "Champlain Regional College",
+      "summary": "Awarded to the student with the highest grades in a program"
+    },
+    {
+      "title": "Dean's List",
+      "date": "2018",
+      "awarder": "Champlain Regional College",
+      "summary": "Honor received by students among the top 10% in academic standard"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "projects",
+    "skills",
+    "awards"
+  ]
+}
