@@ -1,0 +1,236 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\pagestyle{fancy}
+\fancyhf{}
+\definecolor{RED}{RGB}{146,166,219}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Louis}{Barrette-Vanasse}{ \urlstyle{same}\href{mailto:louis.barrette-vanasse@mail.mcgill.ca}{louis.barrette-vanasse@mail.mcgill.ca}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{\textcolor{RED}{Education}}
+
+\subsection{McGill University}
+\descript{Software Engineering BEng}
+\location{2018-2021 | Montreal}
+\location{GPA: 3.9 / 4.0}
+\sectionsep
+
+\subsection{Champlain College}
+\descript{Comp. Sci. and  Maths}
+\location{2016-2018 | Montreal}
+\location{R Score: 36.3}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{\textcolor{RED}{Links}} 
+github.com/ \href{https://github.com/Louismousine}{\bf Louismousine} \\
+linkedin.com/in/  \href{https://www.linkedin.com/in/louis-barrette-vanasse/}{\bf louis-barrette-vanasse}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{\textcolor{RED}{Coursework}}
+Applied Machine Learning \\
+Intro to Software Engineering \\
+Data Structures and Algorithms \\
+Functional Programming \\
+Algorithm Design \\
+Operating Systems\\
+Software Systems\\
+Software Requirements\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{\textcolor{RED}{Skills}}
+Java \textbullet{}   JavaScript \textbullet{} Python \textbullet{} C \\
+OCaml \textbullet{} CSS \textbullet{} HTML \textbullet{} Agile \textbullet{} Git  \\
+React \textbullet{} Angular \textbullet{} Spring Boot \textbullet{} Android \\ 
+Machine Learning \textbullet{} Web development
+\sectionsep
+
+\section{\textcolor{RED}{Hackathons}}
+BOLT Case Comp - Sep 2020 - \textbf{4th place} \\ 
+HackInstead - Aug 2020 \\ 
+TechGames - Mar 2020 - \textbf{1st place} \\ 
+Codejam - Nov 2019 \\ 
+National Bank Hackathon for Social Good - Jul 2019 - \textbf{3rd place} \\ 
+\sectionsep
+
+\section{\textcolor{RED}{Interests}}
+\textbullet{}Avid cinephile\\
+Favorites: Life is Beautiful, American Psycho, Godfather I \& II \\
+\textbullet{}Hockey\\
+\textbullet{}Machine Learning\\
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{\textcolor{RED}{Experience}}
+\runsubsection{McGill University}
+\descript{| Grader and Mentor }
+\location{Sep 2020 - Present | Montreal, Canada}
+\sectionsep
+
+\runsubsection{National Bank of Canada}
+\descript{| Software Engineer Intern }
+\location{May 2020 – Aug 2020 | Montreal, Canada | Spring Boot (Java), React (Javascript, CSS, HTML)}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Contributed to building a financial planning advice website as a full stack developer
+\item Back-end - Wrote and reviewed code in Java using Spring Boot to develop new endpoints
+\item Front-end - Developed new pages and components in React
+\end{tightemize}
+\sectionsep
+
+\runsubsection{CGI}
+\descript{| Software Engineering Intern }
+\location{May 2019 – Aug 2019 | Montreal, Canada | Spring Boot (Java), Angular (Typescript, CSS, HTML)}
+\begin{tightemize}
+\item Built a music streaming website in Java and in Angular as a full stack developer
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{\textcolor{RED}{Notable Projects}}
+\runsubsection{Artif.ai}
+\descript{| Python, React}
+\location{www.artif.ai}
+An e-commerce website that uses neural style transfer (AI) to generate art. Currently accessible and usable!
+\sectionsep
+
+\runsubsection{Predicting covid hospitalizations}
+\descript{| Python}
+\location{github.com/Louismousine/Covid-Hospitalizations-Predictor}
+An ML project that uses the Google search trends of various symptoms in different states to predict the number of weekly new hospitalization cases.
+\sectionsep
+
+\runsubsection{Alcoholometer}
+\descript{| Flutter}
+\location{github.com/Louismousine/Alcoholometer}
+A mobile application that promotes responsible drinking by calculating BAC levels, warning users of side effects of each BAC level and estimating the time at which they will be sober again.
+\sectionsep
+
+\runsubsection{lexia}
+\descript{| JavaScript}
+\location{github.com/Louismousine/lexia}
+A Chrome extension to help dyslexic users browse the web.
+\sectionsep
+
+\runsubsection{Circuit Circus}
+\descript{| Java}
+\location{github.com/Louismousine/Circuit-Circus}
+An electronic circuit simulator JavaFX applet.
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{\textcolor{RED}{Awards}} 
+\begin{tabular}{rll}
+2020	     & top 10\%  & Dean's List, McGill\\
+2020	     & Top 250 students  & In-course scholarship, McGill\\
+2020	     & Mentoring excellence  & Tomlinson Engagement Award for Mentoring\\
+2018     & Top entering students & Narcissa Farrand entrance scholarship  \\
+2017-8     & Top 10\% & Dean's List, Champlain College \\
+2018     & Student with the highest grades & Bourse D'Excellence Desjardins \\
+\end{tabular}
+\sectionsep
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
